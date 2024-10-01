@@ -1,0 +1,12 @@
+fruits = ["Blackberries", "Apple", "Banana", "Mango", "Peaches", "Kiwi"];
+
+function getIndexFromName(paf) {
+     const index = fruits.indexOf(paf)
+     	if (index === -1)
+      return null
+      
+        return index
+ }
+
+const paf = "Peaches"
+displayResult(getIndexFromName(paf));
